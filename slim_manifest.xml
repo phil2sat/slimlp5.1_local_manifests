@@ -13,5 +13,7 @@
   <project name="phil2sat/slimlp5.1_prebuilts-gcc-linux-x86-arm-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="lp5.1" />
   <remove-project name="SlimRoms/android_build" />
   <project path="build" name="phil2sat/slimlp5.1_android_build" remote="github" revision="lp5.1" />
+  <remove-project name="platform/external/proguard" />
+  <project path="external/proguard" name="phil2sat/slimlp5.1_proguard" remote="github" revision="lp5.1" />
   
 </manifest>
