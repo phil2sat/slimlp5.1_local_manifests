@@ -3,19 +3,8 @@
   <project name="SlimRoms/device_samsung_jfltexx" path="device/samsung/jfltexx" remote="github" revision="lp5.1" />
   <project name="SlimRoms/device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lp5.0" />
   <project name="SlimRoms/hardware_samsung" path="hardware/samsung" remote="github" revision="lp5.0" />
-  <project name="SlimRoms/device_samsung_jflte" path="device/samsung/jflte" remote="github" revision="lp5.1" />
-  <project name="SlimRoms/hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" revision="kk4.4" />
-  <project name="SlimRoms/hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kk4.4" />
-  <project name="SlimRoms/hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="github" revision="kk4.4" />
   <project name="phil2sat/slimlp5.1_android_device_samsung_jfvelte" path="device/samsung/jf-common" remote="github" revision="lp5.1" />
   <project name="sombree/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1" />
   <project name="phil2sat/slimlp5.1_prebuilts-gcc-linux-x86-arm-arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="lp5.1" />
   <project name="phil2sat/slimlp5.1_prebuilts-gcc-linux-x86-arm-arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="lp5.1" />
-  <remove-project name="platform/external/proguard" />
-  <project path="external/proguard" name="phil2sat/slimlp5.1_proguard" remote="github" revision="lp5.1" />
-  <remove-project name="SlimRoms/android_build" />
-  <project path="build" name="phil2sat/slimlp5.1_android_build" remote="github" revision="lp5.1" >
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  
 </manifest>
